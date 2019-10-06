@@ -27,7 +27,7 @@ public class Book {
 	private double shippingWeight;
 	private double listPrice;
 	private double ourPrice;
-	private boolean active=true;
+	private boolean active = true;
 	
 	@Column(columnDefinition="text")
 	private String description;
