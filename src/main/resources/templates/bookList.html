@@ -40,12 +40,13 @@
 
 	<div th:replace="common/header :: body-bottom-scripts" />
 	
-	<script type="text/javascript"> $(document).ready(function(){
-		$("#bookListTable").DataTable({
-			"lengthMenu":[[5,10,15,20-1], [5,10,15,20,"All"]],
-		    "ordering":false,
-		    stateSave:true
-		})
-	})</script>
+<script> 
+ 		$(document).ready(function() {
+			$("#bookListTable").dataTable({
+				"lengthMenu": [5, 10, 25, -1]
+ 				
+ 			});
+		});
+</script> 
 </body>
 </html>
